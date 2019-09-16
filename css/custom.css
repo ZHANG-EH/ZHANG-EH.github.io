@@ -1,0 +1,60 @@
+/*************************************************************************
+ * Your custom CSS file
+ *************************************************************************/
+
+.custom-dropdown {
+  width: 240px;
+}
+
+.custom-textbox {
+  width: 240px;
+}
+
+.date {
+  color: #adadad;
+}
+
+.character-card p {
+  margin: 0;
+}
+
+.mili {
+  overflow: auto;
+}
+
+
+/* No normal bullets please */
+#education_ul {
+  list-style-type: none;
+}
+
+#education_ul > li {
+  /* You need to turn on relative positioning so the line is placed relative to the item rather than absolutely on the page */
+  position: relative;
+  
+  /* Use padding to space things out rather than margins as the line would get broken up otherwise */
+  margin: 0;
+  padding-bottom: 1em;
+  padding-left: 20px;
+}
+
+/* The actual line being placed before each list item, tweak width and color as appropriate */
+#education_ul > li:before {
+  background-color: #c00;
+  width: 2px;
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 5px;
+}
+    
+/* Start the line further down on the first list item */
+#education_ul > li:first-child:before { top: 16px;  }
+
+/* Stop the line short on the final list item */
+#education_ul > li:last-child:before { height: 150px; }
+    
+/* Styles for the SVG bullet points */
+.bullet { margin-left: -20px; width: 12px; fill: #c00; float: left; padding-right: 10px }
+.bullet.big { width: 16px; margin-left: -22px; padding-right: 8px }
