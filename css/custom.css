@@ -58,3 +58,7 @@
 /* Styles for the SVG bullet points */
 .bullet { margin-left: -20px; width: 12px; fill: #c00; float: left; padding-right: 10px }
 .bullet.big { width: 16px; margin-left: -22px; padding-right: 8px }
+
+.social > a {
+  color: black !important;
+}
