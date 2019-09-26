@@ -11,6 +11,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: white;
+  background-image: url('../img/background3.png');
+  /* https://www.transparenttextures.com */
   font-family: 'Ubuntu', sans-serif;
   left: 0;
   right: 0;
