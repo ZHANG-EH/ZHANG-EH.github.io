@@ -623,6 +623,10 @@ ol.publication.A-list li p:before {
   height: 91.5vh;
 }
 
+#short-bio {
+  line-height: 1.8;
+}
+
 @media screen and (min-width: 900px) {
   .flex-item-stretch {
     flex: 1;
@@ -646,6 +650,10 @@ ol.publication.A-list li p:before {
 }
 
 @media screen and (max-width: 750px) {
+  #short-bio {
+    line-height: normal;
+  }
+
   #pre_intro {
     height: auto;
   }
