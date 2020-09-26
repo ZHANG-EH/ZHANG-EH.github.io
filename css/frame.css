@@ -620,7 +620,7 @@ ol.publication.A-list li p:before {
 }
 
 #pre_intro {
-  height: 91.5vh;
+  height: 100vh;
 }
 
 #short-bio {
@@ -655,7 +655,7 @@ ol.publication.A-list li p:before {
   }
 
   #pre_intro {
-    height: auto;
+    height: 91.5vh;
   }
 
   #intro_image {
