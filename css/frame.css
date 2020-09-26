@@ -614,8 +614,7 @@ ol.publication.A-list li p:before {
 
 #intro_text {
   width:30%; 
-  margin: auto; 
-  text-align: justify; 
+  margin: auto;  
   position: relative;
   top: 30px;
 }
@@ -650,7 +649,6 @@ ol.publication.A-list li p:before {
   #intro_text {
     width: 100%; 
     margin: auto; 
-    text-align: justify; 
     position: relative;
   }
 
