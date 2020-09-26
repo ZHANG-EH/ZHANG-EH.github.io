@@ -608,6 +608,18 @@ ol.publication.A-list li p:before {
   text-align: center;
 }
 
+#intro_image {
+  width:60%;
+}
+
+#intro_text {
+  width:30%; 
+  margin: auto; 
+  text-align: justify; 
+  position: relative;
+  top: 30px;
+}
+
 @media screen and (min-width: 900px) {
   .flex-item-stretch {
     flex: 1;
@@ -631,6 +643,17 @@ ol.publication.A-list li p:before {
 }
 
 @media screen and (max-width: 750px) {
+  #intro_image {
+    width: 100%;
+  }
+  
+  #intro_text {
+    width: 100%; 
+    margin: auto; 
+    text-align: justify; 
+    position: relative;
+  }
+
   .logo {
     -webkit-tap-highlight-color: transparent;
   }
