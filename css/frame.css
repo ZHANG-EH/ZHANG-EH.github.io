@@ -655,7 +655,7 @@ ol.publication.A-list li p:before {
   }
 
   #pre_intro {
-    height: 91.5vh;
+    height: auto;
   }
 
   #intro_image {
