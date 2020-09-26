@@ -53,7 +53,7 @@
 #education_ul > li:first-child:before { top: 16px;  }
 
 /* Stop the line short on the final list item */
-#education_ul > li:last-child:before { height: 240px; }
+/* #education_ul > li:last-child:before { height: 240px; } */
     
 /* Styles for the SVG bullet points */
 .bullet { margin-left: -20px; width: 12px; fill: #c00; float: left; padding-right: 10px }
