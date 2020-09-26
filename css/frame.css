@@ -651,7 +651,7 @@ ol.publication.A-list li p:before {
 
 @media screen and (max-width: 750px) {
   #short-bio {
-    line-height: normal;
+    line-height: 1.5;
   }
 
   #pre_intro {
