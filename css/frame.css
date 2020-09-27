@@ -632,7 +632,7 @@ ol.publication.A-list li p:before {
 }
 
 #jinhu_text {
-  width: 65%; 
+  width: 60%; 
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -641,7 +641,7 @@ ol.publication.A-list li p:before {
 }
 
 #mili_mimi_img {
-  width: 35%;
+  width: 30%;
 }
 
 #mimi_text {
@@ -673,7 +673,7 @@ ol.publication.A-list li p:before {
 
 @media screen and (max-width: 750px) {
   #jinhu_img {
-    width: 100%;
+    width: 80%;
   }
   
   #jinhu_text {
@@ -686,7 +686,7 @@ ol.publication.A-list li p:before {
   }
   
   #mili_mimi_img {
-    width: 100%;
+    width: 80%;
   }
   
   #mimi_text {
