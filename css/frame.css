@@ -673,7 +673,9 @@ ol.publication.A-list li p:before {
 
 @media screen and (max-width: 750px) {
   #jinhu_img {
-    width: 80%;
+    width: 60%;
+    margin: auto;  
+    position: relative;
   }
   
   #jinhu_text {
@@ -687,6 +689,8 @@ ol.publication.A-list li p:before {
   
   #mili_mimi_img {
     width: 60%;
+    margin: auto;  
+    position: relative;
   }
   
   #mimi_text {
