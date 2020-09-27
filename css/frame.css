@@ -627,6 +627,28 @@ ol.publication.A-list li p:before {
   line-height: 1.8;
 }
 
+#jinhu_img {
+  width: 25%;
+}
+
+#jinhu_text {
+  width: 65%; 
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#mili_text {
+  width: 25%; font-family: 'Ubuntu', sans-serif;
+}
+
+#mili_mimi_img {
+  width: 35%;
+}
+
+#mimi_text {
+  width: 25%; font-family: 'Ubuntu', sans-serif;
+}
+
+
 @media screen and (min-width: 900px) {
   .flex-item-stretch {
     flex: 1;
@@ -650,6 +672,27 @@ ol.publication.A-list li p:before {
 }
 
 @media screen and (max-width: 750px) {
+  #jinhu_img {
+    width: 100%;
+  }
+  
+  #jinhu_text {
+    width: 100%; 
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  #mili_text {
+    width: 100%; font-family: 'Ubuntu', sans-serif;
+  }
+  
+  #mili_mimi_img {
+    width: 100%;
+  }
+  
+  #mimi_text {
+    width: 100%; font-family: 'Ubuntu', sans-serif;
+  }
+
   #short-bio {
     line-height: 1.5;
   }
