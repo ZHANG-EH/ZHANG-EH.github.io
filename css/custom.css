@@ -22,6 +22,10 @@
   overflow: auto;
 }
 
+.pub-title {
+  color: #005cbf;
+  font-weight: bold;
+}
 
 /* No normal bullets please */
 #education_ul {
