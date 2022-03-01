@@ -23,7 +23,7 @@
 }
 
 .pub-title {
-  color: #005cbf;
+  color: #000000;
   font-weight: bold;
 }
 
@@ -35,7 +35,7 @@
 #education_ul > li {
   /* You need to turn on relative positioning so the line is placed relative to the item rather than absolutely on the page */
   position: relative;
-  
+
   /* Use padding to space things out rather than margins as the line would get broken up otherwise */
   margin: 0;
   padding-bottom: 1em;
@@ -52,13 +52,13 @@
   bottom: 0px;
   left: 5px;
 }
-    
+
 /* Start the line further down on the first list item */
 #education_ul > li:first-child:before { top: 16px;  }
 
 /* Stop the line short on the final list item */
 /* #education_ul > li:last-child:before { height: 240px; } */
-    
+
 /* Styles for the SVG bullet points */
 .bullet { margin-left: -20px; width: 12px; fill: #c00; float: left; padding-right: 10px }
 .bullet.big { width: 16px; margin-left: -22px; padding-right: 8px }
