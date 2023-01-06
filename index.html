@@ -35,25 +35,6 @@
 </head>
 
 <body>
-  <div class="menu-container">
-    <div class="menu">
-      <div class="menu-table flex-row-space-between">
-        <div class="logo flex-row-center">
-          <a href="index.html">Enhao Zhang</a>
-        </div>
-        <a class="menu-button" tabindex="0" href="javascript:void(0)">
-          <img src="img/menu.png">
-        </a>
-        <div class="menu-items flex-row-center flex-item">
-          <a href="index.html" class="menu-index">Home</a>
-          <a href="enhaozhang_cv_2021-11-13.pdf">CV</a>
-          <!-- <a href="projects.html" class="menu-projects">Projects</a> -->
-          <a href="others.html" class="menu-others">Others</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <div class="content-container">
     <div class="content">
       <div class="content-table flex-column">
@@ -66,7 +47,6 @@
             <!--Start Social Media Links-->
             <div class="social" style="display: block; margin-left: auto; margin-right: auto;">
               <a style="color: rgb(240, 223, 223); font-size: 24px;" href="https://github.com/ZHANG-EH" target="_blank"><i class="ion-social-github"></i></a>
-              <a style="padding-left:20px; text-decoration: none; font-size: 24px;" href="https://scholar.google.com/citations?user=ja7pDpYAAAAJ&hl=en" target="_blank" class="ion-university"></a>
               <a style="padding-left:20px; color: black; font-size: 24px;" href="https://www.linkedin.com/in/enhao-zhang-92293011b/" target="_blank"><i class="ion-social-linkedin" target="_blank"></i></a>
               <a style="padding-left:20px; color: black; font-size: 24px;" href="https://twitter.com/enhao_zh" target="_blank"><i class="ion-social-twitter"></i></a>
               <a style="padding-left:20px; text-decoration: none; font-size: 24px;" href="https://www.instagram.com/zehhezzeh/" target="_blank" class="fa fa-instagram"></a>
@@ -77,6 +57,12 @@
             <p id="short-bio" style="margin: 20px;">
               Hello world! My name is Enhao Zhang. I'm a PhD student in <a href="https://www.cs.washington.edu/">Computer Science at the University of Washington</a>, where I work with Prof. <a href="https://www.cs.washington.edu/people/faculty/magda">Magdalena Balazinska</a> in the <a href="https://db.cs.washington.edu/">UW Database Group</a>.
             </p>
+            <p style="margin: 0px 20px;">
+              <a href="enhaozhang_cv_2023-01-05.pdf">[Curriculum Vitae (CV)]</a>
+            </p>
+            <p style="margin: 0px 20px;">
+              <a href="https://scholar.google.com/citations?user=ja7pDpYAAAAJ&hl=en">[Google Scholar]</a>
+            </p>
           </div>
         </div>
         <!--End Pre-Intro-->
@@ -85,7 +71,7 @@
         <div class="flex-row" style="margin: 30px 0 50px 0;">
           <div class="flex-item flex-column add-top-margin" style="position: relative;">
             <p style="margin: 16px 0 0 0;">
-              In 2020, I obtained my Bachelor’s degree at <a href="https://cse.engin.umich.edu/">the University of Michigan</a> in Computer Science, and <a href="http://umji.sjtu.edu.cn">UM-SJTU Joint Institute, Shanghai Jiao Tong University</a> in Electrical & Computer Engineering.
+              In 2020, I obtained my Bachelor's degree at <a href="https://cse.engin.umich.edu/">the University of Michigan</a> in Computer Science, and <a href="http://umji.sjtu.edu.cn">UM-SJTU Joint Institute, Shanghai Jiao Tong University</a> in Electrical & Computer Engineering.
             </p>
             <p style="margin: 16px 0 0 0;">
               My research interests are Database Systems, Machine Learning and Human-Computer Interaction (HCI). I am currently working on video data management systems. At UM, I worked with Prof. <a href="http://web.eecs.umich.edu/~michjc/">Michael Cafarella</a> on video databases. Also, I had a great honor to be advised by Prof. <a href="http://www.nikolabanovic.net">Nikola Banovic</a> at the Computational HCI Lab.
@@ -100,19 +86,44 @@
           <hr>
         </div>
         <div class="flex-row" style="margin: auto; position: relative;">
-          <p>
-            <span class="pub-title">VOCAL: Video Organization and Interactive Compositional AnaLytics</span><br>
-            Maureen Daum*, <u>Enhao Zhang</u>*, Dong He, Magdalena Balazinska, Brandon Haynes, Ranjay Krishna, Apryle Craig, Aaron Wirsing<br>
-            <i>CIDR 2022</i>, [<a href="papers/p41-daum.pdf">paper</a>][<a href="https://www.youtube.com/watch?v=b3WXC5zlyBA">Video</a>]<br>
-          </p>
-          <p>
-            <span class="pub-title">Method for Exploring Generative Adversarial Networks (GANs) via Automatically Generated Image Galleries</span><br>
-            <u>Enhao Zhang</u>, Nikola Banovic<br>
-            <i>CHI 2021</i>, [<a href="papers/chi21-gan_explorer.pdf">paper</a>][<a href="https://comphcithree.eecs.umich.edu:8040/intro/">website</a>]<br>
-          </p>
+          <div class="flex-row">
+            <div class="flex-item flex-item-stretch flex-column" style="width:300px;">
+              <img class="image max-width-600" src="img/equi-vocal.png">
+            </div>
+            <div class="flex-item flex-item-stretch-4 flex-column" style="max-width:500px;">
+              <p>
+                <span class="pub-title">EQUI-VOCAL: Synthesizing Queries for Compositional Video Events from Limited User Interactions</span><br>
+                <u>Enhao Zhang</u>, Maureen Daum, Dong He, Magdalena Balazinska, Brandon Haynes, Ranjay Krishna<br>
+                <i>ArXiv 2023</i>, [<a href="https://arxiv.org/pdf/2301.00929.pdf">technical report</a>]<br>
+              </p>
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="flex-item flex-item-stretch flex-column" style="width:300px;">
+              <img class="image max-width-600" src="img/vocal.png">
+            </div>
+            <div class="flex-item flex-item-stretch-4 flex-column" style="max-width:500px;">
+              <p>
+                <span class="pub-title">VOCAL: Video Organization and Interactive Compositional AnaLytics</span><br>
+                Maureen Daum*, <u>Enhao Zhang</u>*, Dong He, Magdalena Balazinska, Brandon Haynes, Ranjay Krishna, Apryle Craig, Aaron Wirsing<br>
+                <i>CIDR 2022</i>, [<a href="papers/p41-daum.pdf">paper</a>][<a href="https://www.youtube.com/watch?v=b3WXC5zlyBA">Video</a>]<br>
+              </p>
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="flex-item flex-item-stretch flex-column" style="width:300px;">
+              <img class="image max-width-600" src="img/gan_explorer.png" style="width: 120px; margin-left: auto; margin-right: auto;">
+            </div>
+            <div class="flex-item flex-item-stretch-4 flex-column" style="max-width:500px;">
+              <p>
+                <span class="pub-title">Method for Exploring Generative Adversarial Networks (GANs) via Automatically Generated Image Galleries</span><br>
+                <u>Enhao Zhang</u>, Nikola Banovic<br>
+                <i>CHI 2021</i>, [<a href="papers/chi21-gan_explorer.pdf">paper</a>][<a href="https://comphcithree.eecs.umich.edu:8040/intro/">website</a>]<br>
+              </p>
+            </div>
+          </div>
         </div>
         <!--End Publication-->
-
 
         <!--Start Education-->
         <div class="flex-column full-width">

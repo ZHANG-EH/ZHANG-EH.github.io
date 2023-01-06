@@ -330,6 +330,10 @@ hr {
   max-width: 600px;
 }
 
+.max-width-500 {
+  width: 500px;
+}
+
 .max-width-140 {
   max-width: 140px;
 }
@@ -613,10 +617,9 @@ ol.publication.A-list li p:before {
 }
 
 #intro_text {
-  width: 34%; 
-  margin: auto;  
+  width: 34%;
+  margin: auto;
   position: relative;
-  top: 30px;
 }
 
 #pre_intro {
@@ -632,7 +635,7 @@ ol.publication.A-list li p:before {
 }
 
 #jinhu_text {
-  width: 60%; 
+  width: 60%;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -674,25 +677,25 @@ ol.publication.A-list li p:before {
 @media screen and (max-width: 750px) {
   #jinhu_img {
     width: 60%;
-    margin: auto;  
+    margin: auto;
     position: relative;
   }
-  
+
   #jinhu_text {
-    width: 100%; 
+    width: 100%;
     font-family: 'Ubuntu', sans-serif;
   }
 
   #mili_text {
     width: 100%; font-family: 'Ubuntu', sans-serif;
   }
-  
+
   #mili_mimi_img {
     width: 60%;
-    margin: auto;  
+    margin: auto;
     position: relative;
   }
-  
+
   #mimi_text {
     width: 100%; font-family: 'Ubuntu', sans-serif;
   }
@@ -708,10 +711,10 @@ ol.publication.A-list li p:before {
   #intro_image {
     width: 100%;
   }
-  
+
   #intro_text {
-    width: 100%; 
-    margin: auto; 
+    width: 100%;
+    margin: auto;
     position: relative;
   }
 
