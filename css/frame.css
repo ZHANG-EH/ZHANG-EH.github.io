@@ -613,11 +613,11 @@ ol.publication.A-list li p:before {
 }
 
 #intro_image {
-  width:58%;
+  width:22%;
 }
 
 #intro_text {
-  width: 34%;
+  width: 70%;
   margin: auto;
   position: relative;
 }
